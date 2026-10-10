@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+  background: #0d1215;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(ellipse at 50% 0, rgba(34, 50, 43, 0.19), transparent 48%),
+    #0d1215;
+  color: #e9e6df;
+  font-family: 'DM Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  font: inherit;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #b8e4cb;
+  outline-offset: 4px;
+}
+
+::selection {
+  color: #101614;
+  background: #b8e4cb;
+}
